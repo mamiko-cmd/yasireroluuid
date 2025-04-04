@@ -1,0 +1,59 @@
+/* Sayfa genel stili */
+body {
+    font-family: 'Roboto', sans-serif; /* Google Fonts ile gelen font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Sayfa içeriği için kapsayıcı bir div */
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Başlık stili */
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #4a90e2;
+    margin-bottom: 30px;
+}
+
+/* Buton stili */
+button {
+    background-color: #4a90e2;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #357ab7;
+}
+
+/* UUID'nin görüntüleneceği paragraf */
+#uuidDisplay {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+    background-color: #e9f0f7;
+    padding: 20px;
+    border-radius: 8px;
+    word-wrap: break-word;
+    font-weight: 500;
+}
